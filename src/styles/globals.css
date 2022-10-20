@@ -8,5 +8,10 @@ body{
 }
 
 .app-wrapper{
-    @apply bg-primary-light
+    @apply lg:mx-20 lg:my-10;
+    @apply bg-primary-light;
+    @apply grid grid-cols-12;
+    @apply lg:h-[calc(100vh-5rem)] h-screen;
+    @apply rounded-md shadow-lg; 
+
 }
