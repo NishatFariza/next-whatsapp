@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className="chat-app">
       <div className="chat-app__sidebar">
         <AuthenticatedUser />
-        <div>
+        <div className="chat-app__contacts">
           <ContactCard />
           <ContactCard />
           <ContactCard />

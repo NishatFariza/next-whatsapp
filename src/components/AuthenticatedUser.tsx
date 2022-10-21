@@ -2,7 +2,7 @@ import React from "react";
 
 const AuthenticatedUser = () => {
   return (
-    <div className="chat-app__contacts flex justify-between border-b p-3 shadow">
+    <div className="flex justify-between border-b p-3 shadow h-16">
       <button>
         <img
           className="w-10 h-10 rounded-full"
