@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-200;
+}
+
+.chat-app {
+    @apply bg-teal-500;
+    @apply overflow-hidden;
+    @apply grid grid-cols-12;
+    @apply lg:mx-20 lg:my-10;
+    @apply lg:rounded-md shadow-2xl;
+    @apply transition-all duration-300;
+    @apply lg:h-[calc(100vh-5rem)] h-screen;
+
+   &__sidebar{
+       @apply col-span-4;
+       @apply bg-white;
+   }
+
+   &__main{
+    @apply col-span-8;
+      
+   }
+
+}
