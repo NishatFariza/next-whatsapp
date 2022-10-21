@@ -16,12 +16,12 @@ body {
     @apply lg:h-[calc(100vh-5rem)] h-screen;
 
    &__sidebar{
-       @apply col-span-4;
+       @apply col-span-3;
        @apply bg-white;
    }
 
    &__main{
-    @apply col-span-8;
+    @apply col-span-9;
       
    }
 

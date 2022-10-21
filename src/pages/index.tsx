@@ -1,4 +1,5 @@
 import AuthenticatedUser from "@/components/AuthenticatedUser";
+import ContactCard from "@/components/ContactCard";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -9,6 +10,40 @@ const Home: NextPage = () => {
     <div className="chat-app">
       <div className="chat-app__sidebar">
         <AuthenticatedUser />
+        <div>
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+          <ContactCard />
+        </div>
       </div>
       <div className="chat-app__main">content</div>
     </div>
