@@ -9,9 +9,14 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="app-wrapper">
-      <div></div>
-      <div></div>
+    <div className="chat-app">
+      <div className="chat-app__sidebar">
+      
+        <div className="chat-app__contacts">
+          
+        </div>
+      </div>
+      <div className="chat-app__main">content</div>
     </div>
   );
 };
