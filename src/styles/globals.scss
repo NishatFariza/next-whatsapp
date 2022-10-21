@@ -27,7 +27,7 @@ body {
 
    &__contacts{
     @apply overflow-y-scroll;
-    @apply lg:h-[calc(100vh-9rem)] h-[calc(100vh-5rem)]; 
+    @apply lg:h-[calc(100vh-13rem)] h-[calc(100vh-9rem)]; 
    }
 
 }
