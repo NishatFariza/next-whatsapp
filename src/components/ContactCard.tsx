@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactCard = () => {
   return (
-    <div className="flex gap-2 border-b p-3">
+    <div className="flex gap-2 border-t p-3">
       <div>
         <img
           className="w-10 h-10 rounded-full"

@@ -105,7 +105,7 @@ const MobileAndComputer = () => (
 
 const NoRoomScreen = () => {
   return (
-      <div className="flex flex-col justify-center items-center h-[100vh]">
+      <div className="flex flex-col justify-center items-center h-[100vh] border-b-[6px] border-b-teal-600">
           <MobileAndComputer/>
       <div className="text-center">
         <h2 className="text-2xl mt-5">WhatsApp For Web</h2>
