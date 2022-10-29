@@ -2,8 +2,8 @@ import React from "react";
 
 const NoRoomScreen = () => {
   return (
-    <div>
-      <div className="">
+    <div className="flex flex-col justify-center items-center h-[100vh]">
+      <div className="text-center">
         <h2>WhatsApp For Web</h2>
         <p>
           Send and receive messages without keeping your phone online. <br />{" "}
@@ -11,7 +11,7 @@ const NoRoomScreen = () => {
         </p>
       </div>
 
-      <p>
+      <p className="flex items-center">
         <svg
           viewBox="0 0 10 12"
           height="12"

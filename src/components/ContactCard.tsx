@@ -12,7 +12,7 @@ const ContactCard = () => {
       </div>
       <div>
         <h1>M. N. Sakib</h1>
-        <p className="text-stone-400 text-sm">Kemon achhen apni?</p>
+        <p className="text-stone-400 text-sm">How are you?</p>
       </div>
     </div>
   );

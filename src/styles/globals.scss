@@ -7,7 +7,6 @@ body {
 }
 
 .chat-app {
-    @apply bg-teal-500;
     @apply overflow-hidden;
     @apply grid grid-cols-12;
     @apply lg:mx-20 lg:my-10;
